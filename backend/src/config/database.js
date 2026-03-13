@@ -5,7 +5,7 @@ async function  connectDB(){
         console.log('MongoDB connected successfully');
     }
     catch(err){
-        console.log("Not connected");
+        console.log("Not connected",err.message);
         
     }
 }
